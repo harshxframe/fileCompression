@@ -2,7 +2,6 @@
 """
 Batch-compress videos with ffmpeg using quality-targeted (CRF) encoding.
 
-
 There is no "lossless shrink" for already-encoded MP4s. This re-encodes each
 video to a visual-quality target (CRF): the output is (near-)indistinguishable
 from the source to the eye while being much smaller. Audio is copied untouched,
